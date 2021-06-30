@@ -1,0 +1,22 @@
+{
+  "name": "ts-setup",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "yarn build --watch --preserveWatchOutput",
+    "lint": "eslint src --ext js,ts",
+    "test": "jest"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "exlint": "^0.1.6",
+    "jest": "^27.0.6",
+    "typescript": "^4.3.4"
+  },
+  "volta": {
+    "node": "12.19.0",
+    "yarn": "1.22.10"
+  }
+}
